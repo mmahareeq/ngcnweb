@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    display: flex;
+    flex-direction: row;
+    
+    background-color: rgb(86, 156, 248);
+    overflow-x: hidden;
+    height: 100px;
+}
+.name-web
+{
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 35px;
+    padding-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.menu2
+{
+    list-style-type: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content:space-between;
+    flex-direction:row; 
+    width:500px;
+    font-size: 25px;
+    
+    
+}
+.menu 
+{
+    display: flex;
+   padding-left: 70px;
+   padding-top: 0px;
+   
+}
+
+.img-mental img ,.img-mental
+{
+    width: 100%;
+    height: 360px;
+}
+.section3
+{
+    background-color: rgb(141, 189, 251);
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.p-mental
+{
+    width: 40%;
+    padding-top: 30px;
+    align-content:center;
+    /*padding-left: 60px;*/
+    margin-left:80px ;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+}
+.img2-mental
+{
+    padding-left:80px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.btn-link
+{
+    text-decoration: none;
+    background-color: white;
+    border: 0.3 solid grey;
+    width: 120px;
+    height: 55px;
+    margin-left: 150px;
+    margin-top: 15px;
+
+}
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(190, 186, 186);
+    height:190px ;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+
+
+}
+.foot3
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.foot1
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+.foot4
+{
+    padding-left:200px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.foot6
+{
+  font-size: 15px;  
+}
+
+
+a
+{
+    
+    color: black;
+}
+.resource
+{
+    background-color:white;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    
+    font-family:  'Ubuntu', sans-serif;
+}
+.name-res
+{
+    align-content: center;
+    font-family:  'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 50%;
+    padding-top:25px;
+    
+    
+
+}
+.res-1
+{
+    border-radius: 2%;
+    border:2px solid  rgb(93, 93, 93);
+    height:330px ;
+    width: 340px;
+    margin-left: 20px;
+    
+}
+.res1
+{
+    display: flex;
+    flex-direction: row;
+    padding-left: 120px;
+    padding-top: 15px;
+}
+.res-1 span
+{
+    color: rgb(22, 108, 179);
+}
+.res-1 button
+{
+    background-color: rgb(22, 108, 179);
+    color: white;
+    
+    border-radius: 10px;
+    height: 30px;
+    margin-left: 35%;
+}
